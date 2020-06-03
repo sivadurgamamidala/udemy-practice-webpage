@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+.title{
+    height: 65px;
+    width: 100%;
+    background-color: #f4c150;
+    text-align: center;
+    position: static;
+}
+.text1{
+    margin: 0px;
+    position: relative;
+}
+.text2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -5px;
+    text-transform: uppercase;
+}
+.title,.memu{
+    margin: 0px;
+}
+.menu{
+    height: 65px;
+    width: 100%;
+    margin-top: -24px;
+    /*background-color: aqua;*/
+}
+.menu .row .aa a,.menu .row .bb a {
+    text-decoration: none;
+    color: black;
+}
+img{
+    height: 40px;
+    margin: 15px 15px;
+    float: left;
+}
+.Categories{
+    margin: 20px 0px 0px 35px;
+    position: relative !important;
+}
+.fa-bars{
+    
+    margin: 6px 5px 0px 0px;
+    font-size: 16px !important;
+    
+    
+}
+.fa-bars,.cate{
+    float: left;
+}
+.cate{
+    margin-top: 3px;
+    font-size: 14px !important;
+}
+.form-control{
+    margin: 0px;
+    font-size: 14px;
+}
+.form-group{
+    margin: 15px 0px 0px -6px;
+    
+}
+.icon i{
+    position: absolute;
+}
+.fa-search{
+    margin: -26px 0px 0px 410px;
+    color: red;
+    z-index: 1000;
+}
+
+.aa{
+    margin-left: 0px;
+    margin-top: 20px;
+    font-size: 14px !important;
+}
+.bb{
+    margin-left: -50px;
+    margin-top: 20px;
+    
+    font-size: 14px !important;
+}
+.cc{
+    margin: 10px 0px 0px -50px;
+    
+}
+.btn{
+    font-size: 16px !important;
+}
+.fa-shopping-cart{
+    float: left;
+    font-size:18px !important ;
+    margin: 10px 25px 0px 0px;
+}
+.dd{
+    float: left;
+}
+.ff{
+    margin: 0px 0px 0px 0px;
+}
+.dd{
+    margin: 0px 5px 0px 0px;
+    
+}
+.ee{
+    margin: 0px 0px 0px 0px;
+}
+.poster{
+    width: 100%;
+    height: 490px;
+    background-image: url(images/poster.jpg);
+    background-size: 100% 490px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    
+}
+/* to hide horizontal scroll bar*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.poster .form-group{
+    position: absolute;
+    margin: 10% 5%;
+}
+.caption{
+    font-size: 37px;
+    font-weight: bold;
+    color: #ea5251;
+}
+.desc{
+    margin-top: 8px;
+    font-size: 17px;
+    color:#2d0338;
+}
+.learn{
+    margin-top: 8px;
+}
+.learn .form-control{
+    height: 50px;
+}
+.learn .fa-search{
+    position: absolute;
+    margin: -34px 0px 0px 390px;
+    font-size: 20px;
+}
